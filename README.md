@@ -1,5 +1,5 @@
 # Bike Sharing Assignment
-> Project by Géraldine Bengsch (First Upgrad case study) <br>
+> Project by Géraldine Bengsch (Second Upgrad Assignment) <br>
 >
 > This project uses Regression Analysis to build a multiple linear regression model for the prediction of demand for shared bikes:
 > - Which variables are significant in predicting the demand for shared bikes
@@ -10,6 +10,7 @@
 > - A folder containing images used (Visualisations are our own, picture is from Unsplash)
 > - The data set `day.csv`
 > - The data dictionary `Readme.txt`
+> - Answers to the Subjective Questions in pdf format `AssignmentQuestionsGeraldineBengsch.pdf`
 
 
 ## Table of Contents
@@ -72,8 +73,8 @@ Temperature and weather are important factors the company should consider when m
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.1-informational?style=flat&logoColor=white&color=2bbc8a)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-informational?style=flat&logoColor=white&color=2bbc8a)
 ![sklearn](https://img.shields.io/badge/Sklearn-1.0.2-informational?style=flat&logoColor=white&color=2bbc8a)
-![statsmodels](https://img.shields.io/badge/statsmodels-0.13.1-post1-informational?style=flat&logoColor=white&color=2bbc8a)
-![scipy](https://img.shields.io/badge/scipy-1.8.0-post1-informational?style=flat&logoColor=white&color=2bbc8a)
+![statsmodels](https://img.shields.io/badge/statsmodels-0.13.1-informational?style=flat&logoColor=white&color=2bbc8a)
+![scipy](https://img.shields.io/badge/scipy-1.8.0-informational?style=flat&logoColor=white&color=2bbc8a)
 
 
 
