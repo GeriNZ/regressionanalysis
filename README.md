@@ -34,17 +34,33 @@ A bike-sharing system is a service in which bikes are made available for shared 
 - **Business problem:**
 Aim is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations.
 
-- **Dataset:** The dataset consists of 111 columns and 39717 entries. Not all columns contain data, with a total number of 2263364 missing entries. Based on our exploration, the Lending Club data is similar to other data that may be obtained through other financial companies. The data set was provided to us through *UpGrad*. However, it is also available publicly.
+## Assignment Steps performed in the notebook
+
+## Data visualisations
+- perform EDA to understand various variables
+- check correlation between the variables and
+
+## Data preparation
+- create dummy variables for all categorical features
+- divide the data to train and test
+- perform scaling
+- divide data into dependent and independent variables
+
+## Data modelling and evaluation
+- create linear regression model using mixed approach (RFE & VIF/p-Value)
+- check the various assumptions
+- check the adjusted r-square for both train and test data
+- report the final model
 
 
 
 ## Conclusions
-Please see the notebook and Presentation slides for more detailed insights.
-1. Purpose of the loan  does not matter. 
-2. Borrowers were **more likely to default on their loans if interest rates at time of borrowing were high**. 
-3. Borrowers are **more likely to default when term was 60 months and they were below Grade B**. 
-4. The amount of funds provided by investors is an import factor, as those whose who were **able to pay off fully had help from investors**.
-5. **Annual income is not an indicator** of whether the loan will be paid.
+Please see the notebook for more detailed insights.
+1. `temp` has the highest coefficient, with 0.50. This means, that when the temperature increases by one unit, the count of bike rentals also increases by 0.50. 
+2. next highest coefficient is `yr` with 0.23. There are also negative coefficients which show a relation in the opposite direction. 
+3. The largest negative coefficient is `cloudy` with -0.30.
+
+Temperature and weather are important factors the company should consider when making business decisions. It would also seem that the demand for bikes is growing by passing years. The pandemic is hopefully not going to diminish this demand, so that the company can recover.
 
 
 
@@ -55,8 +71,9 @@ Please see the notebook and Presentation slides for more detailed insights.
 ![Pandas](https://img.shields.io/badge/Pandas-1.3.5-informational?style=flat&logoColor=white&color=2bbc8a)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.1-informational?style=flat&logoColor=white&color=2bbc8a)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-informational?style=flat&logoColor=white&color=2bbc8a)
-![Plotly](https://img.shields.io/badge/Plotly-5.5.0-informational?style=flat&logoColor=white&color=2bbc8a)
-![Kaleido](https://img.shields.io/badge/Kaleido-0.2.1.post1-informational?style=flat&logoColor=white&color=2bbc8a)
+![sklearn](https://img.shields.io/badge/Sklearn-1.0.2-informational?style=flat&logoColor=white&color=2bbc8a)
+![statsmodels](https://img.shields.io/badge/statsmodels-0.13.1-post1-informational?style=flat&logoColor=white&color=2bbc8a)
+![scipy](https://img.shields.io/badge/scipy-1.8.0-post1-informational?style=flat&logoColor=white&color=2bbc8a)
 
 
 
